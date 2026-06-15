@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Td2-SxZf)
+
 # Assignment 10 - Restaurant App
 
 Hallo team, berikut saya bantu buatkan dokumen, agar kalian lebih mudah dalam pengerjaan project ini ya, baca dokumen ini sampai selesai sebelum mulai ngoding.
@@ -328,3 +329,7 @@ Total: 100 persen.
 
 Selamat mengerjakan. Kalau ada yang tidak jelas pada flow atau API, baca dulu Swagger
 dan Figma, lalu tanyakan ke mentor.
+
+Nama: [Muhammad Ismail]
+Repository:https://github.com/mismail26934-hub/challenge-10-mismail26934-hub.git
+Deployment:

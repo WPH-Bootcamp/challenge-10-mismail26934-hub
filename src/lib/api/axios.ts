@@ -1,8 +1,12 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 
-const BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL ||
-  'https://be-restaurant-production.up.railway.app';
+const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
+if (!BASE_URL) {
+  throw new Error(
+    'Missing NEXT_PUBLIC_API_BASE_URL. Copy .env.example to .env.local and set the API base URL.'
+  );
+}
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
