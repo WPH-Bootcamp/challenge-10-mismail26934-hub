@@ -13,9 +13,9 @@ import {
 import { useRequireAuth } from '@/hooks/use-auth-guard';
 import { formatCurrency } from '@/lib/utils';
 import { toast } from '@/hooks/use-toast';
-import { Skeleton } from '@/components/shared/Skeletons';
+import { Skeleton } from '@/components/shared/Skeleton';
 import { FadeInStagger, FadeInItem } from '@/components/shared/FadeInStagger';
-import CartItemRow from '@/components/shared/CartItemRow';
+import CartItemRow from '@/features/cart/CartItemRow';
 
 export default function CartPage() {
   const { isAuthenticated, hasHydrated } = useRequireAuth();

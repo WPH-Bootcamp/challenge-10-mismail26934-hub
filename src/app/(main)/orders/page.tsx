@@ -16,7 +16,7 @@ import { useAuthStore } from '@/store/auth.store';
 import { useRouter } from 'next/navigation';
 import { useQueryClient } from '@tanstack/react-query';
 import { formatCurrency } from '@/lib/utils';
-import { StarRating } from '@/components/shared/StarRating';
+import { StarRating } from '@/features/order/StarRating';
 import { FadeInStagger, FadeInItem } from '@/components/shared/FadeInStagger';
 import { toast } from '@/hooks/use-toast';
 import type { OrderStatus, Order } from '@/types';

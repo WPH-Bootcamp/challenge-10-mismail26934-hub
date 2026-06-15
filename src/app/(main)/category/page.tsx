@@ -10,9 +10,9 @@ import {
   useBestSellers,
   useRestaurantSearch,
 } from '@/lib/query/hooks';
-import { RestaurantCard } from '@/components/shared/RestaurantCard';
-import { RestaurantCardSkeleton } from '@/components/shared/Skeletons';
-import { FilterPanel } from '@/components/shared/FilterPanel';
+import { RestaurantCard } from '@/features/resto/RestaurantCard';
+import { RestaurantCardSkeleton } from '@/features/resto/Skeletons';
+import { FilterPanel } from '@/features/resto/FilterPanel';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FadeInStagger, FadeInItem } from '@/components/shared/FadeInStagger';
 import type { RestaurantFilter } from '@/types';

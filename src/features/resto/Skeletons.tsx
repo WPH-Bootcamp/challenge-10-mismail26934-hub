@@ -1,8 +1,4 @@
-import { cn } from '@/lib/utils';
-
-function Skeleton({ className }: { className?: string }) {
-  return <div className={cn('shimmer rounded-lg bg-neutral-200', className)} />;
-}
+import { Skeleton } from '@/components/shared/Skeleton';
 
 export function RestaurantCardSkeleton() {
   return (
@@ -29,5 +25,3 @@ export function MenuCardSkeleton() {
     </div>
   );
 }
-
-export { Skeleton };

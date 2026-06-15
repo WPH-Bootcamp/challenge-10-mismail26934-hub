@@ -10,8 +10,8 @@ import {
   useRestaurantSearch,
 } from '@/lib/query/hooks';
 import { useAuthStore } from '@/store/auth.store';
-import { RestaurantCard } from '@/components/shared/RestaurantCard';
-import { RestaurantCardSkeleton } from '@/components/shared/Skeletons';
+import { RestaurantCard } from '@/features/resto/RestaurantCard';
+import { RestaurantCardSkeleton } from '@/features/resto/Skeletons';
 import HeroImage from '@/assets/images/hero-image.png';
 import Image from 'next/image';
 import RestaurantIcon from '@/assets/icons/all-restaurants.png';
