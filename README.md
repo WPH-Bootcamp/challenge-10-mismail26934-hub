@@ -332,4 +332,4 @@ dan Figma, lalu tanyakan ke mentor.
 
 Nama: [Muhammad Ismail]
 Repository:https://github.com/mismail26934-hub/challenge-10-mismail26934-hub.git
-Deployment:
+Deployment:https://challenge-10-mismail26934-hub.vercel.app/
